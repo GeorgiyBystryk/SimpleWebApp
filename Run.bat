@@ -1,0 +1,1 @@
+docker-compose up -d && (mvn clean install -DskipTests && java -jar target\simplewebapp-0.0.1-SNAPSHOT.jar)
